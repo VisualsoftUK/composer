@@ -8,6 +8,8 @@ if (PHP_SAPI !== 'cli' && PHP_SAPI !== 'phpdbg') {
 setlocale(LC_ALL, 'C');
 require __DIR__.'/../src/bootstrap.php';
 
+HTTPCurlStream::init();
+
 use Composer\Console\Application;
 use Composer\XdebugHandler\XdebugHandler;
 
