@@ -61,7 +61,8 @@
     "autoload": {
         "psr-4": {
             "Composer\\": "src/Composer"
-        }
+        },
+        "files": ["src/curlstream.php"]
     },
     "autoload-dev": {
         "psr-4": {
